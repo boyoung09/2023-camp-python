@@ -1,0 +1,6 @@
+print ('hello')
+print ('bye')
+print ('good')
+print ('su jeong')
+print ('t')
+print ('sleep')

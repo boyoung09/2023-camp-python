@@ -1,0 +1,39 @@
+print(int(34.2))
+print(int(46.2))
+print(int(22.5))
+print(int(3.9))
+print(float(2))
+print(float(6))
+print(bool(4.5))
+print("4+5")
+print("""hello
+hello
+good""")
+print("첫줄\n둘쨋줄")
+x="안녕하세요."
+print(x)
+print(x[0:6])
+print(len(x))
+a=2
+a=a+2
+print(a)
+a+=2
+print(a)
+a-=4
+print(a)
+x=10
+y=10
+x+=1
+y*=2
+print(f"x={x},y={y}")
+x=3.14
+r=3
+b=x*r*r
+print(x*r*r)
+x=int(input())
+y=int(input())
+print(f"x==y의 결과값:{x==y}")
+print(f"x!=y의 결과값:{x!=y}")
+year=int(input())
+if (year%4==0 and year%100!=0) or year%400==0:
+    print("윤년입니다.")
